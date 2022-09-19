@@ -1,0 +1,42 @@
+@media (max-width: 720px) {
+
+/*font the google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Maze&display=swap');
+
+
+
+body{
+    background-color: #f1e2af;
+}
+
+
+
+.container{
+    text-align: center;
+    max-width: 720px;
+}
+
+
+h1{
+    font-family: 'Rubik Maze', cursive;
+    color: rgb(5, 5, 5);
+    font-size: 80px;
+}
+
+
+
+
+
+}
+
+@media (min-width: 721px) and (max-width: 900px) {
+body{
+    background-color: aqua;
+}
+}
+
+@media (min-width: 901px){
+    body{
+        background-color: bisque;
+    }
+}
