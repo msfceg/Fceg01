@@ -10,18 +10,50 @@ body{
 }
 
 
+/*pagina quienes somos*/
+div#quienSomos{
+    text-align: center;
+    max-width: 720px;
+    background-color: antiquewhite;
+    padding-bottom: 10%;
+}
+/* pagina como llegar */
+div#comoLlegar{
+    text-align: center;
+    max-width: 720px;
+    background-color: antiquewhite;
+    padding-bottom: 10%;
+}
+
 
 .container{
     text-align: center;
     max-width: 720px;
 }
 
-
 h1{
     font-family: 'Rubik Maze', cursive;
     color: rgb(5, 5, 5);
     font-size: 80px;
 }
+h2{
+    font-size: 60px;
+}
+p{
+    font-size: 30px;
+}
+/* footer */
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
 
 
 
@@ -29,12 +61,30 @@ h1{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    tablet     */
 @media (min-width: 721px) and (max-width: 900px) {
 body{
     background-color: aqua;
 }
 }
-
+/*     web-ordenador       */
 @media (min-width: 901px){
     body{
         background-color: bisque;
